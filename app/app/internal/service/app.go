@@ -197,11 +197,11 @@ func (a *AppService) Deposit(ctx context.Context, req *v1.DepositRequest) (*v1.D
 			//	continue
 			//}
 
-			if "50000000000000000000" == vDepositUsdtResult.Value {
-
-			} else if "100000000000000000000" == vDepositUsdtResult.Value {
+			if "100000000000000000000" == vDepositUsdtResult.Value {
 
 			} else if "300000000000000000000" == vDepositUsdtResult.Value {
+
+			} else if "500000000000000000000" == vDepositUsdtResult.Value {
 
 			} else {
 				continue
